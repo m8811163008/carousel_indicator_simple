@@ -11,29 +11,34 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A flutter package to add indicator above the carousels.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+You can change color of active indicator and inactive indicators.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add the dependency in pubspec.yaml
+
+## ScreenShots
+
+![Screen shot of carousel indicator](https://raw.githubusercontent.com/m8811163008/carousel_indicator_simple/main/flutter_01.png)
 
 ## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Pass the `itemsCount` and `activeIndex` to CarouselIndicatorSimple widget.
 
 ```dart
-const like = 'sample';
+      MaterialApp(
+        home: Scaffold(
+          body: CarouselIndicatorSimple(
+            itemsCount: 5,
+            activeIndex: 2,
+          ),
+        ),
+      ),
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Any improvments are welcome.
