@@ -11,7 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-A flutter package to add indicator above the carousels.
+A flutter package to add indicator above the carousels in Stacks widgets.
 
 ## Features
 
@@ -19,7 +19,7 @@ You can change color of active indicator and inactive indicators.
 
 ## Getting started
 
-Add the dependency in pubspec.yaml
+Add the dependency in the pubspec.yaml
 
 ## ScreenShots
 
