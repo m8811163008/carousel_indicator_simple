@@ -1,7 +1,7 @@
 name: carousel_indicator_simple
-description: A new Flutter package project.
-version: 0.0.1
-homepage:
+description: A flutter package to add indicator above the carousels in Stacks widgets.
+version: 1.0.0
+repository: https://github.com/m8811163008/carousel_indicator_simple
 
 environment:
   sdk: '>=3.1.5 <4.0.0'
